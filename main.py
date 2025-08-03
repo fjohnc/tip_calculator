@@ -1,5 +1,10 @@
 import streamlit as st
 
+st.set_page_config(
+    page_title="Tip Calculator",
+    page_icon="💰",
+)
+
 st.title("💰 Tip Calculator")
 st.write("Quickly split your bill and add a tip!")
 
